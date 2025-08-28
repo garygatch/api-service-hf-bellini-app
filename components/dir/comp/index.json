@@ -1,0 +1,103 @@
+{
+  "type": "custom-component",
+  "name": "comp",
+  "nodeName": null,
+  "description": null,
+  "children": [
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [
+        {
+          "property": "background-color",
+          "value": "#a79a9a",
+          "enabled": true
+        }
+      ],
+      "children": [
+        {
+          "name": "text",
+          "nodeName": "text",
+          "textContent": "$ctrl.result",
+          "evaluate": true
+        }
+      ],
+      "comments": ""
+    },
+    {
+      "name": "img",
+      "nodeName": "img",
+      "elementId": "",
+      "attributes": [],
+      "classList": [],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [],
+      "comments": "",
+      "source": {
+        "url": "assets/apps/api-service/jpg5.jpg",
+        "evaluate": false
+      }
+    }
+  ],
+  "variables": [
+    {
+      "name": "result",
+      "description": "",
+      "type": "property",
+      "value": ""
+    },
+    {
+      "name": "a",
+      "description": "",
+      "type": "method",
+      "body": "$ctrl.result = await $ctrl.serv1.get()",
+      "invokeOnLoad": true,
+      "isAsync": true,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [],
+      "watch": []
+    },
+    {
+      "name": "serv1",
+      "type": "service",
+      "id": "service"
+    }
+  ],
+  "bindings": [],
+  "modules": [],
+  "marketplaceId": null,
+  "formControl": null,
+  "transclude": null,
+  "styles": [],
+  "directories": null,
+  "parentDirectoryId": "ZN4PgqjBU4_DZA0WSFUna",
+  "externalScripts": [],
+  "externalStylesheets": [],
+  "localScripts": [],
+  "localStylesheets": []
+}

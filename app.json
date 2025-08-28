@@ -1,0 +1,74 @@
+{
+  "name": "api-service-hf",
+  "type": "app",
+  "defaultPage": "home",
+  "config": {
+    "config": {
+      "parameters": [],
+      "script": ""
+    },
+    "modules": [],
+    "properties": {
+      "version": "1.0.0-SNAPSHOT"
+    },
+    "environments": [],
+    "themes": [],
+    "auth": {
+      "enabled": false,
+      "mockedUserAccounts": []
+    }
+  },
+  "directories": {
+    "assets": [
+      {
+        "id": "d9xOek5CuhPk40au5Lhsb",
+        "name": "dir"
+      }
+    ],
+    "components": [
+      {
+        "id": "ZN4PgqjBU4_DZA0WSFUna",
+        "name": "dir"
+      }
+    ],
+    "pages": [],
+    "scripts": [
+      {
+        "id": "782Wwu63avhxJHhJx_Z8D",
+        "name": "dir"
+      }
+    ],
+    "services": [
+      {
+        "id": "QSj_6bbzES9NROq4zuXOA",
+        "name": "dir"
+      }
+    ],
+    "stylesheets": [
+      {
+        "id": "G5poabIoIxKVnLH2w32UB",
+        "name": "dir"
+      }
+    ]
+  },
+  "externalScripts": [],
+  "externalStylesheets": [],
+  "localScripts": [
+    {
+      "path": "dir/a.js",
+      "parentDirectoryId": "782Wwu63avhxJHhJx_Z8D"
+    },
+    {
+      "path": "b.js"
+    }
+  ],
+  "localStylesheets": [
+    {
+      "path": "dir/a.css",
+      "parentDirectoryId": "G5poabIoIxKVnLH2w32UB"
+    },
+    {
+      "path": "b.css"
+    }
+  ]
+}

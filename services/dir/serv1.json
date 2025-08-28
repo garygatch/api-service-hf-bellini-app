@@ -1,0 +1,45 @@
+{
+  "type": "app-service",
+  "name": "serv1",
+  "description": "",
+  "singleton": true,
+  "variables": [
+    {
+      "name": "a",
+      "description": "",
+      "type": "property",
+      "value": ""
+    },
+    {
+      "name": "ggpet",
+      "type": "open-api",
+      "id": "open-api"
+    },
+    {
+      "name": "result",
+      "description": "",
+      "type": "property",
+      "value": ""
+    },
+    {
+      "name": "get",
+      "description": "",
+      "type": "method",
+      "body": " try {\n    const result = await this.ggpet.findPetsByStatus({ status: 'sold' });\n    return result.data;  // ✅ returning the data\n  } catch (error) {\n    console.error('Error fetching pets:', error);\n    return [];\n  }",
+      "invokeOnLoad": true,
+      "isAsync": true,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [],
+      "watch": []
+    }
+  ],
+  "visible": [
+    "a",
+    "get",
+    "getAvailable",
+    "result"
+  ],
+  "parentDirectoryId": "QSj_6bbzES9NROq4zuXOA"
+}
